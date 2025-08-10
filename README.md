@@ -9,3 +9,8 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 ## Vector DB
 Chroma DB (https://docs.trychroma.com/)
 docker run -v ./chroma-data:/data -p 8000:8000 chromadb/chroma
+
+## LLM
+Gemma 3
+
+## Ollama
